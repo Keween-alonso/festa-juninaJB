@@ -1,0 +1,139 @@
+body{
+    font-family: 'Montserrat', arial, sans-serif;
+    background-color: rgb(230, 194, 39);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+header, main{
+    width: 940px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header{
+    text-align: center;
+}
+
+img{
+    box-sizing: border-box;
+    box-shadow: 3px 3px 7px rgb(90, 89, 86);
+    border-radius: 25px;
+    margin: 0 auto;
+    width: 70%;
+}
+
+.formulario{
+    width: 600px;
+    margin: 0 auto;
+    background-color: rgb(233, 212, 121);
+    border-radius: 25px;
+    padding: 2em;
+    box-sizing: content-box;
+    box-shadow: 3px 3px 7px rgb(90, 89, 86);
+}
+
+.formulario h2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+fieldset{
+    border: none;
+    margin: 1em 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+input{
+    border: 1px solid black;
+    width: 100%;
+    display: block;
+    margin: 0 0 1em 0;
+    border-radius: 25px;
+    padding: .5em;
+}
+
+input[type="submit"]{
+    width: 40%;
+    margin: 1em auto;
+}
+
+fieldset label, fieldset input{
+    display: inline-block;
+    margin-right: 2em;
+}
+
+.opcoes{
+    display: flex;
+    align-items: center;
+}
+
+.opcoes label{
+   margin-left: 1em;
+}
+
+.opcoes input{
+    margin: 0;
+}
+
+label, legend{
+    font-size: 1.2em;
+}
+
+label{
+    margin-left: 1em;
+}
+
+input[type="submit"]{
+    transition: all .5s;
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(30, 184, 37);
+}
+
+a{
+    font-size: 2em;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a:hover{
+    color: blueviolet;
+}
+
+table{
+    margin: 1em auto;
+    border-collapse: collapse;
+    box-sizing: content-box;
+    box-shadow: 3px 3px 7px rgb(90, 89, 86);
+
+}
+
+
+th, td, tr, caption{
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+caption{
+    border-radius: 13px 13px 0 0;
+    font-weight: bolder;
+    background-color: rgb(230, 194, 39);
+    box-sizing: content-box;
+    box-shadow: 3px 0 7px rgb(90, 89, 86);
+}
+
+th{
+    background-color: rgb(30, 184, 37);
+}
+
+td, tr{
+    background-color:  rgb(233, 212, 121);
+}
+
